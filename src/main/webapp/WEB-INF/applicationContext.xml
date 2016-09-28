@@ -35,5 +35,7 @@
 		<property name="location" value="${b}"/>
 		<property name="type" value="${c}"/>
 	</bean>
+	
+	<bean id="setUp" class="mypack.aware.SetUp"/>
 
 </beans>
