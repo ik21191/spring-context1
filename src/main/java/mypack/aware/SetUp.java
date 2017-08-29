@@ -11,7 +11,7 @@ import org.springframework.context.ApplicationContextAware;
  * @author i.khan
  * Object of this class is loaded(as we have bean entry for this file in ApplicationContext) when the application 
  * is deployed, because we have entry in web.xml file for ContextLoaderListener. 
- * This lister loads ApplicationContext at the time of deployment and all the beans are loaded when 
+ * This listener loads ApplicationContext at the time of deployment and all the beans are loaded when 
  * applicationContext.xml is read.
  * Note: When object of ApplicationContext is created it creates all the objects for all beans present in the 
  * applicationContext.xml. 

@@ -4,6 +4,10 @@ import org.springframework.stereotype.Service;
 
 @Service("ServiceTest")
 public class TestServiceImpl implements TestService {
+	
+	public TestServiceImpl() {
+		System.out.println("TestServiceImpl() is called.");
+	}
 
 	@Override
 	public void test() {
