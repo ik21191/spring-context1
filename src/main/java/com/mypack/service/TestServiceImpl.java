@@ -2,7 +2,7 @@ package com.mypack.service;
 
 import org.springframework.stereotype.Service;
 
-@Service("ServiceTest")
+@Service("testService")
 public class TestServiceImpl implements TestService {
 	
 	public TestServiceImpl() {

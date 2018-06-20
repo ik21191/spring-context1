@@ -10,8 +10,11 @@ import com.mypack.service.TestService;
 public class IndexController extends ParameterizableViewController
 {
 
+	public IndexController() {
+		
+	}
 	@Autowired
-	private TestService service;//It is not working
+	private TestService testService;//It is not working
     @Override
     public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
     	
